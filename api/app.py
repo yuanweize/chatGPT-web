@@ -46,7 +46,6 @@ async def credit_summary(request: Request):
     res = await api.credit_summary(api_key=api_key)
     return res
 
-
 if __name__ == '__main__':
     import uvicorn
 
